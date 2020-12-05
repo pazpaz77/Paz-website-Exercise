@@ -71,3 +71,40 @@ li {
 
     display: block;
 }
+
+.content-top {
+    width: 900px;
+    height: 355px;
+    display: flex;
+    margin-top: 40px; /* לבדוק*/
+    margin-bottom: 40px;
+    justify-content: space-evenly;
+    /* position: relative;*/
+    align-items: center;
+    
+}
+
+.pics-top>img {
+
+    width: 291px;
+    height: 354px;
+    border-bottom-right-radius: 20px 20px;
+
+}
+
+.content-bottom {
+    width: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.content-box {
+    width: 244px;
+    height: 216px;
+    border: 1px solid gray;
+    border-top-right-radius: 20px 20px;
+
+
+}

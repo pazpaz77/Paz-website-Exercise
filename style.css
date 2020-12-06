@@ -6,23 +6,23 @@ body {
     direction: rtl;
     text-align: right;
     margin: auto;
-    width: 1247px;
-    height: 754px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
-    /*position: relative;*/
+    position: relative;
     width: 100%;
     height: 105px;
+    z-index: 5;
     margin: 0 auto;
     background-color:gray;
-    /*box-shadow: 10px rgb(110, 41, 41); ***FIX****/
 }
 
 main {
     width: 900px;
     margin: 0 auto;
+    position: relative;
+    z-index: 1;
 }
 
 ul {
@@ -33,7 +33,29 @@ ul {
 .logo {
     position: absolute;
     bottom: -30px;
-    right: 160px;
+    right: 200px;
+}
+
+.search-container {
+    display: flex;
+    position: absolute;
+    bottom: 70px;   
+    left: 320px;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.search-container a {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.search-container a:hover {
+    color: #005CA0 ;
+    text-decoration: underline;
 }
 
 nav {
@@ -63,13 +85,19 @@ li {
     list-style: none;
 }
 
+i {
+    color: #005CA0 ;
+    align-items: baseline;
+}
+
 .dropdown-menu {
     display: none;
     flex-direction: column;
     position: absolute;
     background-color: gray;
-    justify-content: space-evenly;
+    /*justify-content: space-evenly;*/
     text-align: right;
+    width: 100px;
 
 }
 
@@ -96,9 +124,13 @@ li {
     margin-top: 30px; /* לבדוק*/
     margin-bottom: 20px;
     justify-content: space-between;
-    position: relative;
+    /*position: relative;*/
     /*align-items: center;*/
     
+}
+
+.pics-top {
+    position: relative;
 }
 
 .pics-top>img {
@@ -107,6 +139,49 @@ li {
     height: 352px;
     border-bottom-right-radius: 20px 20px;
 
+}
+
+.gray-content {
+    position: absolute;
+    bottom: 10px;
+    right: 7px;
+    width: 249px;
+    height: 96px;
+    background-color:#808080;
+    color: white;
+    opacity: 90%;
+    border-bottom-right-radius: 20px 20px;
+    padding: 10px;
+}
+
+.gray-content h3 {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.gray-content p {
+    font-size: 13px;
+    margin-top: 4px;
+    line-height: 1;
+}
+
+
+.read-more-white a {
+    font-size: 13px;
+    position: absolute;
+    left: 20px;
+    bottom: -10px;
+    color: white;
+
+}
+
+.read-more-white img {
+
+   /* left: 10px;
+    bottom: 5px;*/
+    width: 10px;
+    height: 10px;
 }
 
 .content-bottom {
@@ -122,9 +197,9 @@ li {
     border: 1px solid lightgray;
     border-top-right-radius: 20px 20px;
     padding: 0px 24px;
+    border-bottom: none;
+    color: #575757;
    
-
-
 }
 
 .content-box h3 {
@@ -133,6 +208,7 @@ li {
     margin-bottom: 15px;
     /*position: relative;*/
 }
+
 
 
 .content-box img {

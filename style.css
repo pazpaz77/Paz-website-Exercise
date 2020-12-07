@@ -97,14 +97,13 @@ i {
     background-color: gray;
     /*justify-content: space-evenly;*/
     text-align: right;
-    width: 100px;
+    /*width: 100px;*/
 
 }
 
 .dropdown-menu li {
-    width: 96px;
-    height: 15px;
-
+    white-space: nowrap;
+    
 }
 
 .drop-trigger {

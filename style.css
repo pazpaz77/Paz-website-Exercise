@@ -15,7 +15,8 @@ header {
     height: 105px;
     z-index: 5;
     margin: 0 auto;
-    background-color:gray;
+    /*background-color:gray;*/
+    background-image: linear-gradient(0deg, rgba(179,181,181,1) 0%, rgba(143,145,145,1) 20%, rgba(107,109,109,1) 100%);
 }
 
 main {
@@ -32,8 +33,8 @@ ul {
 
 .logo {
     position: absolute;
-    bottom: -30px;
-    right: 200px;
+    bottom: -8px;
+    right: 290px;
 }
 
 .search-container {
@@ -71,7 +72,7 @@ nav ul {
 
 
 nav ul li {
-    padding: 10px;
+    padding: 20px;
 }
 
 nav ul li a {
@@ -95,14 +96,27 @@ i {
     flex-direction: column;
     position: absolute;
     background-color: gray;
-    /*justify-content: space-evenly;*/
+    background: linear-gradient(0deg, rgba(107,109,109,1) 0%, rgba(143,145,145,1) 52%, rgba(179,181,181,1) 86%);
     text-align: right;
-    /*width: 100px;*/
+   
+    
 
 }
 
 .dropdown-menu li {
     white-space: nowrap;
+    padding: 5px;
+    
+}
+
+.dropdown-menu li:hover {
+    
+    background-color: rgb(149, 149, 149);
+    text-decoration: underline;
+    
+}
+.dropdown-menu li a:hover {
+    color: #005CA0;
     
 }
 
@@ -114,6 +128,12 @@ i {
 .drop-trigger:hover>.dropdown-menu {
 
     display: block;
+}
+
+.drop-trigger li {
+    border-bottom: 1px solid rgb(187, 186, 186);
+    border-spacing: 0ch;
+    
 }
 
 .content-top {

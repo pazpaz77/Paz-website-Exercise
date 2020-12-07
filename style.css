@@ -271,26 +271,44 @@ i {
 }
 
 footer {
-    background-color: gray;
+    background: linear-gradient(0deg, rgba(107,109,109,1) 0%, rgba(143,145,145,1) 52%, rgba(179,181,181,1) 86%);
     width: 100%;
     height: 38px;
     bottom: 0px;
-    /*position: fixed;*/
-    margin-top: 40px;
+    position: fixed;
+    z-index: 999999;
 }
 
 footer ul {
 
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+footer ul li {
+
+    padding-left: 5px;
+    padding-right: 5px;
+
 }
 
 footer ul li a {
 
     font-size: 14px;
-    padding-right: 20px;
     color: white;
+    text-decoration: none;
 }
 
+footer ul li a:hover {
 
+    color: #005CA0 ;
+    text-decoration: underline;
+}
+
+footer .menu-separator {
+    color: white;
+    margin-left: 7px;
+ }
     

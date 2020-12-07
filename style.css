@@ -33,8 +33,8 @@ ul {
 
 .logo {
     position: absolute;
-    bottom: -8px;
-    right: 290px;
+    bottom: -25px;
+    right: 300px;
 }
 
 .search-container {
@@ -61,7 +61,8 @@ ul {
 
 nav {
     position: relative;
-    top: 65px;
+    top: 70px;
+    margin-right: 130px;
     
 }
 nav ul {
@@ -72,7 +73,13 @@ nav ul {
 
 
 nav ul li {
-    padding: 20px;
+    padding:  0px 0px 10px 15px;   
+}
+
+.menu-separator {
+   color: rgba(211, 211, 211, 0.507);
+   margin-left: 15px;
+   font-weight: 600;
 }
 
 nav ul li a {
@@ -89,6 +96,7 @@ li {
 i {
     color: #005CA0 ;
     align-items: baseline;
+    margin-right: 10px;
 }
 
 .dropdown-menu {
@@ -98,8 +106,8 @@ i {
     background-color: gray;
     background: linear-gradient(0deg, rgba(107,109,109,1) 0%, rgba(143,145,145,1) 52%, rgba(179,181,181,1) 86%);
     text-align: right;
-   
-    
+    top: 33px;
+    margin-right: 10px;
 
 }
 

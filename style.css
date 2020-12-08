@@ -312,19 +312,20 @@ i {
     
 }
 
-/* .map-pic {
+.map-pic img {
     /* display: flex;
     flex-direction: row;
-    align-items: flex-end; */
-    /* position: absolute;
+    align-items: flex-end;  */
+    position: absolute;
     left: 20px;
     top: 40px;
-    width: 73px; */
-    /* float: left;
-} */ 
+    width: 73px;
+    height: 168px;
+    
+} 
 
 footer {
-    background: linear-gradient(0deg, rgba(107,109,109,1) 0%, rgba(143,145,145,1) 52%, rgba(179,181,181,1) 86%);
+    background: linear-gradient(0deg, rgb(125, 126, 126) 0%, rgba(143,145,145,1) 52%, rgba(179,181,181,1) 86%);
     width: 100%;
     height: 38px;
     bottom: 0px;
@@ -363,5 +364,6 @@ footer ul li a:hover {
 footer .menu-separator {
     color: white;
     margin-left: 7px;
+    font-weight: lighter;
  }
     

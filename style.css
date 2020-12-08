@@ -492,19 +492,21 @@ footer .menu-separator {
 .box1 {
     
     height: 140px;
-    background-color: rgb(152, 168, 182);
-    margin-bottom: 40px;
+    margin-bottom: 50px;
     border: 1px solid lightgray;
     border-bottom: none; 
     padding: 5px 30px;
+    border-top-right-radius: 20px 20px;
 }
 
 .box2 {
     
     height: 140px;
-    background-color: rgb(151, 211, 136);
     border: 1px solid lightgray;
     border-bottom: none; 
+    padding: 5px 30px;
+    border-top-right-radius: 20px 20px;
+
 }
 
 .box1 h3 {
@@ -517,4 +519,28 @@ footer .menu-separator {
 .box1 p {
     font-size: 13px;
     color: #6d6d6d;
+}
+
+.box2 a {
+    color: blue;    
+    text-decoration: none;
+}
+
+.box2 a:hover {
+
+    color: #005CA0;
+    text-decoration: underline;
+    
+}
+
+.box2 p {
+    font-size: 13px;
+    color: #6d6d6d;
+}
+
+.box2 h3 {
+    font-size: 15px;
+    font-weight: bold;
+    color: #005ca0;
+    margin-bottom: 10px;
 }

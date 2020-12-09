@@ -80,7 +80,7 @@ ul {
 .search-container img {
 
    position: absolute; 
-   top: 1px;
+   top: 0px;
    left: -20px;
    
 }
@@ -291,7 +291,6 @@ i {
 }
 
 
-
 .content-box img {
 
     width: 250px;
@@ -383,24 +382,25 @@ footer ul li a:hover {
 }
 
 footer .menu-separator {
+
     color: white;
     margin-left: 7px;
     font-weight: lighter;
  }
     
 
- /* adding contact page style */
+    /* adding contact page style */
+
 
  .content-layout {
-
     
     display: flex;
     flex-direction: row; 
     margin-top: 30px; 
     margin-bottom: 20px;
-    /* position: relative;  */
 
  }
+
  aside {
 
     width: 122px; 
@@ -470,12 +470,13 @@ footer .menu-separator {
     margin-right: 140px;
 }
 
+
 /* styling contact form  */
+
 
 .form-wrap {
     display: block;
     width: 385px;
-    /* height: 360px; */
     margin-left: 80px;
     border: 1px solid lightgray;
     border-bottom: none; 
@@ -529,12 +530,12 @@ fieldset {
 input {
 
     display: table-cell; 
-    /* padding: 0 4px 0 4px;  */
     border: 1px solid #6d6d6d;
     width: 70%; 
     float: left;
    
-  }
+  } 
+
 
 label {
     font-size: 12px;
@@ -545,29 +546,24 @@ label {
 
   }
 
-  input[type=submit] {
-    background-color: linear-gradient(0deg, rgba(62,105,217,0.014842858475245801) 0%, rgba(10,2,200,1) 100%);;
-    border: none;
-    color: white;
-    padding: 10px 10px;
-    text-decoration: none;
-    margin: 4px 2px;
-  } 
-
+  .form-submit input {
+      color: maroon;
+  }
   
- /* #submit {
+  #submit {
     color: #fff;
     font-size: 14px;
     width: 30px;
-    background-color: linear-gradient(0deg, rgba(62,105,217,0.014842858475245801) 0%, rgba(10,2,200,1) 100%);;
+    background-color: linear-gradient(0deg, rgba(62,105,217,0.014842858475245801) 0%, rgba(10,2,200,1) 100%);
     height: 10px;
     border: none;
     margin: 0;
     padding: 0; 
-   } */
-   
 
-  /* styling side-boxes */
+   }  
+   
+   
+   /* styling side-boxes */
 
 
 .side-boxes {
